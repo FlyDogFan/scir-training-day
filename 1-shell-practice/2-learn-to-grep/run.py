@@ -18,6 +18,6 @@ if __name__=="__main__":
     judge = Judge()
     judge.add_test(["sh", "1.sh",], "11",       style=STDIO)
     judge.add_test(["sh", "2.sh",], "17",       style=STDIO)
-    judge.add_test(["sh", "3.sh",], "b\ne",     style=STDIO)
-    judge.add_test(["sh", "4.sh",], "4.out",    style=FILE)
+    #judge.add_test(["sh", "3.sh",], "b\ne",     style=STDIO)
+    #judge.add_test(["sh", "4.sh",], "4.out",    style=FILE)
     judge.run()
